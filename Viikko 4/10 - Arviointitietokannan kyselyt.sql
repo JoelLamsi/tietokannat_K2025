@@ -30,7 +30,7 @@ where o.etunimi = 'Hessu' and o.sukunimi = 'Hopo';
 select avg(a.arvosana) as keskiarvo_arvosana
 from arviointi a
 join opiskelija o on a.idOpiskelija = o.idOpiskelija
-where o.etunimi = 'Roope' and o.sukunimi = 'Ankka';
+where o.etunimi = 'Aku' and o.sukunimi = 'Ankka';
 
 -- 5) Millä opintojaksoilla ei ole yhtään merkintää?
 select op.nimi
