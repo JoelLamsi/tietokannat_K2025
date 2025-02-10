@@ -1,29 +1,20 @@
-class Book {
-    constructor(book_id, name, author, isbn) {
-        this.book_id = book_id;
-        this.name = name;
-        this.author = author;
-        this.isbn = isbn;
-    }
-}
-
 // 1. Luotuun assosiatiivinen taulukko kirjoille
 const books = [
-    new Book(1, "Everything You Ever Wanted to Know", "Upton", "082305649x"),
-    new Book(2, "Photography", "Vilppu", "205711499"),
-    new Book(3, "Drawing Manual Vilppu", "Zelanshi", "1892053039"),
-    new Book(4, "TBA", "Zelanshi", "0534613932"),
-    new Book(5, "Shaping Space", "Speight", "0534613934"),
-    new Book(6, "Art Since 1940", "Speight", "0131839780"),
-    new Book(7, "Make it in Clay", "Stokstad", "0076417011"),
-    new Book(8, "Art History Vol II & ala carte lab", "Stokstad", "205795617"),
-    new Book(9, "Accounting Concepts", "Albrecht", "1111287856"),
-    new Book(10, "Intermediate Accounting", "Stice", "0538479736"),
-    new Book(11, "Management Info Systems", "Marakas", "9780073376813"),
-    new Book(12, "Management", "Williams", "9780757524028"),
-    new Book(13, "Leadership Wisdom of Jesus", "Manz", "9781609940041"),
-    new Book(14, "Business Law Today", "Miller", "9780324786156"),
-    new Book(15, "Management Info Systems", "Marakas", "9780073376813")
+    { book_id: 1, name: "Everything You Ever Wanted to Know", author: "Upton", isbn: "082305649x" },
+    { book_id: 2, name: "Photography", author: "Vilppu", isbn: "205711499" },
+    { book_id: 3, name: "Drawing Manual Vilppu", author: "Zelanshi", isbn: "1892053039" },
+    { book_id: 4, name: "TBA", author: "Zelanshi", isbn: "0534613932" },
+    { book_id: 5, name: "Shaping Space", author: "Speight", isbn: "0534613934" },
+    { book_id: 6, name: "Art Since 1940", author: "Speight", isbn: "0131839780" },
+    { book_id: 7, name: "Make it in Clay", author: "Stokstad", isbn: "0076417011" },
+    { book_id: 8, name: "Art History Vol II & ala carte lab", author: "Stokstad", isbn: "205795617" },
+    { book_id: 9, name: "Accounting Concepts", author: "Albrecht", isbn: "1111287856" },
+    { book_id: 10, name: "Intermediate Accounting", author: "Stice", isbn: "0538479736" },
+    { book_id: 11, name: "Management Info Systems", author: "Marakas", isbn: "9780073376813" },
+    { book_id: 12, name: "Management", author: "Williams", isbn: "9780757524028" },
+    { book_id: 13, name: "Leadership Wisdom of Jesus", author: "Manz", isbn: "9781609940041" },
+    { book_id: 14, name: "Business Law Today", author: "Miller", isbn: "9780324786156" },
+    { book_id: 15, name: "Management Info Systems", author: "Marakas", isbn: "9780073376813" }
 ];
 
 // 2. Taulukon books tietotyyppi .. object
